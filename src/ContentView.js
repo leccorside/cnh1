@@ -35,12 +35,7 @@ const ContentView = () => {
                 setCanGoForward(forward);
             }} 
             />
-        <NavigationView 
-        onBackPress={handleBackPress} 
-        onForwardPress={handleForwardPress} 
-        canGoBack={canGoBack} 
-        canGoForward={canGoForward}
-        />
+      
         </View>
         
     );
